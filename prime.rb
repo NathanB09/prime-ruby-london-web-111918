@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  (2..Float::INFINITY).each do |i|
+  (2..100000).each do |i|
     num % i == 0 ? false : true
   end
 end
